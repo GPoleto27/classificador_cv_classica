@@ -1,7 +1,7 @@
 # Classificador de Veículos com Visão Computacional clássica
 
 Aplicação em python de um classificador utilizando visão computacional clássica para classificação de uma área de interesse de um vídeo.
-[Video DEMO]()
+[Video DEMO](https://youtu.be/XuFcU466sWs)
 
 # Instalação e execução
 
