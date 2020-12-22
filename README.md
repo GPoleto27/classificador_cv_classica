@@ -3,6 +3,10 @@
 Aplicação em python de um classificador utilizando visão computacional clássica para classificação de uma área de interesse de um vídeo.
 [Video DEMO](https://youtu.be/XuFcU466sWs)
 
+Construa a imagem a partir do dockerfile ([Como?](https://docs.docker.com/engine/reference/commandline/build/))
+
+Ou:
+
 # Instalação e execução
 
 ## Clonando o Repositório
@@ -42,7 +46,3 @@ Adicione o argumento _-f_ ou *--fps*
 Adicione o argumento _-mh_ ou *--min_height* para alterar a altura mínima para validar uma caixa limitante como pertencente a um carro
 
 Adicione o argumento _-mw_ ou *--min_width* para alterar a largura mínima para validar uma caixa limitante como pertencente a um carro
-
-# TODO
-
-- Criar um Docker

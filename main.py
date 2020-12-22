@@ -33,6 +33,8 @@ cx, cy, cw, ch = (bounding_box[i] for i in range(4))
 subtraction = cv2.bgsegm.createBackgroundSubtractorMOG()
 vehicle_counter = 0
 
+result = cv2.VideoWriter('result.avi', cv2.VideoWriter_fourcc(*'XVID'), 30.0, (1280, 720))
+
 while True:
     # Lê um frame
     success, img = cap.read()
@@ -97,9 +99,11 @@ while True:
                         cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
 
         cv2.imshow("Classica", img)
+        result.write(img)
 
     if cv2.waitKey(1) == 27:
         break
 
-cv2.destroyAllWindows()
+result.release()
 cap.release()
+cv2.destroyAllWindows()
