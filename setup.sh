@@ -4,4 +4,4 @@
 pip3 install -r requirements
 
 # Alterando a permissão de execução
-sudo chmod +x main.py
+chmod +x main.py
