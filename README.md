@@ -35,7 +35,7 @@ Para arquivo, apenas modifique o nome do arquivo, para usar sua webcam, altere p
 
 ## Alterando os frames por segundo
 
-Adicione o argumento _-f_ ou *--fps
+Adicione o argumento _-f_ ou *--fps*
 
 ## Alterando altura e largura mínima de validação
 
